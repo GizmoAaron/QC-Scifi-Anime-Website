@@ -1,0 +1,188 @@
+body {
+          font-family: 'Righteous', cursive;
+          color: #feffef;
+      }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #090A08;
+  font-size: 40px;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #feffef;
+}
+li.right{
+  font-size: 36px;
+}
+li.left a:hover {
+  background-color: #DC4AC7;
+}
+li.right a:hover{
+  background-color: #465e41;
+}
+.box{
+  background-image:url("https://wallpaperaccess.com/full/21591.jpg");
+  background-size: 100% 100%;
+  top: 0; right: 0; bottom: 0; left: 0;
+  opacity: .95;
+  position: absolute;
+  text-align: center;
+}
+.space{
+  height:250px;
+}
+.space-small{
+  height:100px;
+}
+.large-text{
+  text-align: center;
+  font-size: 7em;
+}
+.medium-text{
+  text-align: center;
+  font-size: 5em;
+}
+.small-text{
+  text-align: center;
+  font-size: 2em;
+}
+.form-center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding: 10px;
+  font-size: 4em;
+  text-align: center;
+}
+input[type=text]{
+  height: 50%;
+  width: 75%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+}
+input[type=password].TC{
+  height: 50%;
+  width: 75%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+}
+input[type=submit]{
+  width: 75%;
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding: 12px;
+  background-color: #030500;
+  color: #feffef;
+  border: none;
+  font-family:inherit;
+  font-size: .5em;
+}
+.center{
+    margin: auto;
+    display: inline-block;
+    font-size: 2em;
+    border: none;
+} 
+.bottom-right{
+    color: blanchedalmond;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+}
+.Sign-Up-Form{
+  align-items: center;
+  width: 400px;
+  box-shadow:  0 0 px 0 rgba(0,0,0,0.3);
+  background: #11120f;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  text-align: center;
+  border-radius: 10%;
+} 
+.Sign-Up-Form h1{
+  color: #feffef;
+  margin-bottom: 30px;
+}
+.Sign-Up-Form button{
+  background-color: #68c49e;
+  color: #feffef;
+}
+.input-box{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  border: 1px solid #999 ;
+  outline: none;
+}
+button{
+  color: #fff;
+  background-color: darkgrey;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+input[type=submit].SI{
+  width: 75%;
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #030500;
+  color: #feffef;
+  border: none;
+  font-family:inherit;
+  font-size: 1em;
+}
+input[type=text].SI{
+  height: 75%;
+  width: 75%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: none;
+}
+input[type=password].SI{
+  height: 50%;
+  width: 75%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+}
+form.SI{
+  text-align: center;
+}
+.return{
+  height: 50%;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+  overflow:auto;
+}
+.return td{
+  padding:0 30px 0 30px;
+}
